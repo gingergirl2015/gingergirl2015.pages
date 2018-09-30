@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+// eslint-disable-next-line
 import {Calendar, CalendarControls} from 'react-yearly-calendar';
 import './Calendar.css';
 
@@ -14,7 +15,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Nasty Catzz</h1>
+          <h1 className="App-title">Ginger Girl 2015</h1>
         </header>
         <div id="box">
           <Calendar year={2018} onPickDate={onDatePicked} />
